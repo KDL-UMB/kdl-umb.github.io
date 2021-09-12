@@ -20,5 +20,6 @@ I am also passionate about applying causal analysis techniques in feature select
 Before UMass Boston, I had been a software engineer in China for over 8 years, which helps me get accumulated substantial hands-on expertise on designing and writing code in both the client-side and server-side. I obtained my M.S. degree in Computer Science from University of Massachusetts, Boston in 2016. Prior to that, I received my B.E. degree in Computer Science from the Harbin Engineering University in Harbin, China.
 
 In my spare time, I enjoy traveling and hiking with friends and family.
+
 ---
 
