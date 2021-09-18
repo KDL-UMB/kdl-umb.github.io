@@ -12,7 +12,7 @@ horizontal: true
     <!-- Generate cards for each writing -->
     {% if page.horizontal %}
       <div class="container">
-        <div class="row row-cols-4">
+        <div class="row row-cols-3">
         {% for writing in sorted_writings %}
           {% include tech_writing.html %}
         {% endfor %}
