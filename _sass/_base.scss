@@ -122,6 +122,7 @@ blockquote {
   }
   .navbar-nav .nav-item .nav-link {
     color: var(--global-text-color);
+    font-weight: bolder;
     &:hover {
       color: var(--global-hover-color);
     }
@@ -140,12 +141,12 @@ blockquote {
     font-size: 1.7rem;
     a {
       i::before {
-        color: var(--global-text-color);
+        color: var(--global-theme-color);
         -webkit-transition: all 0.2s ease-in-out;
       }
       &:hover {
         i::before {
-          color: var(--global-theme-color);
+          color: var(--global-hover-color);
         }
       }
     }

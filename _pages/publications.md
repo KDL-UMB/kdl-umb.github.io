@@ -3,7 +3,7 @@ layout: page
 permalink: /publications/
 title: publications
 description: An up-to-date list is available on Google Scholar.
-years: [2016, 2017, 2018, 2021]
+years: [2021, 2018, 2017, 2016]
 nav: true
 ---
 
