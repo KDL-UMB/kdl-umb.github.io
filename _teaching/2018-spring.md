@@ -2,7 +2,7 @@
 layout: default
 course_name: Big data analysis 
 course_number: CS 697
-semester: spring 2018
+semester: 2018 spring 
 role: Teaching Assistant
 ---
 Graduate-level big data analysis course taught by Prof. [Wei Ding](https://www.cs.umb.edu/~ding). 

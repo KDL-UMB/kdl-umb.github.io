@@ -1,18 +1,18 @@
-"Adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"Almeida": 
+  - firstname: ["Matthew", "M."]
+    url: https://matthewalmeida.github.io/
 
-"Podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"Ding": 
+  - firstname: ["Wei", "W."]
+    url: https://www.cs.umb.edu/~ding/
 
-"Rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"Morabito": 
+  - firstname: ["Melissa S.", "Melissa"]
+    url:  https://www.uml.edu/fahss/criminal-justice/faculty/morabito-melissa.aspx
 
-"Bach": 
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"Yu": 
+  - firstname: ["Kui"]
+    url:  https://sites.google.com/site/yukuiwebsite/
+    
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+   
