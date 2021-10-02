@@ -3,9 +3,9 @@ layout: page
 title: projects
 permalink: /projects/
 description: some of the projects I have worked on.
-nav: true
+nav: false
 display_categories: [work, fun]
-horizontal: true
+horizontal: false
 ---
 <div class="projects">
   {% if site.enable_project_categories and page.display_categories %}
