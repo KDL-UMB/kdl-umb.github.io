@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: <a href="https://www.umb.edu/">Computer Science Department</a>. UMASS Boston.
+description: <a href="https://www.cs.umb.edu/">Computer Science Department</a>. <a href="https://www.umb.edu/">UMASS Boston</a>.
 profile:
   align: right
   image: prof_pic.jpg
