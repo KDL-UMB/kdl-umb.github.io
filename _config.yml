@@ -11,7 +11,7 @@ description: > # the ">" symbol means to ignore newlines until "footer_text:"
   The website of KDLab.
 footer_text: >
 
-icon: 🖥️ # the emoji used as the favicon
+icon: 🌀 # the emoji used as the favicon
 url: https://kdl-umb.github.io # the base hostname & protocol for your site
 baseurl: #/al-folio # the subpath of your site, e.g. /blog/
 last_updated: false # set to true if you want to display last updated in the footer
