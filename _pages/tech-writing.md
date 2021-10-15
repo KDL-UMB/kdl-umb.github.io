@@ -1,6 +1,6 @@
 ---
 layout: page
-title: tech-writing
+title: tech-writing workshop
 permalink: /tech-writing/
 description: Scientific writing example sentences in papers or articles.
 nav: true
