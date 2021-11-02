@@ -13,5 +13,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 We are an Applied Machine Learning lab in the Department of Computer Science at UMASS Boston. 
+
+This website is under rebuilding. We plan to be putting up members' information, articles on previous projects, and new directions in the coming weeks.
 ---
 
