@@ -3,7 +3,7 @@ layout: page
 permalink: /members/
 title: members
 description: members
-nav: true
+nav: false
 ---
 <h3 class="mt-4">The University of Massachusetts, Boston</h3>
 <div class="projects">
