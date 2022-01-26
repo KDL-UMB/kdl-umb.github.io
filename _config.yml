@@ -104,6 +104,12 @@ collections:
   teaching:
     output: true
     permalink: /teaching/:path/
+  meeting:
+    output: true
+    permalink: /meeting/:path/
+  members:
+    output: true
+    permalink: /members/:path/
 
 news_limit: 5
 

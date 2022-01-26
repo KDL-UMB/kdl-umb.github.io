@@ -1,12 +1,11 @@
 ---
 layout: page
-title: submenus
-nav: false
-dropdown: false
+title: Lab Activities
+nav: true
+dropdown: true
 children: 
-    - title: publications
-      permalink: /publications/
-    - title: divider
-    - title: projects
-      permalink: /projects/
+    - title: tech-writing seminar
+      permalink: /tech-writing/
+    - title: meeting
+      permalink: /meeting
 ---

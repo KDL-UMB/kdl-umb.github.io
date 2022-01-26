@@ -1,14 +1,14 @@
 ---
 layout: page
-title: tech-writing seminar
-permalink: /tech-writing/
-description: A seminar for students to share good sentences in papers or articles, practice and improve scientific writing skills.
+title: meeting
+permalink: /meeting/
+description: Weekly meeting for students to share their weekly work and discuss with team members.
 nav: false
 horizontal: true
 ---
 <div class="projects">
   <!-- Display projects without categories -->
-    {% assign sorted_writings = site.tech-writing | sort: "title" | reverse %}
+    {% assign sorted_writings = site.meeting | sort: "title" | reverse %}
     <!-- Generate cards for each writing -->
     {% if page.horizontal %}
       <div class="container">

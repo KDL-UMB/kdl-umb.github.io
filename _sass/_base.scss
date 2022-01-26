@@ -92,7 +92,7 @@ blockquote {
 .navbar {
   box-shadow: none;
   border-bottom: 1px solid $grey-color-light;
-  background-color: var(--global-bg-color);
+  background-color: rgba(255, 17, 0, 0.534);
   opacity: 0.95;
 }
 .navbar .dropdown-menu {
@@ -255,8 +255,10 @@ footer.sticky-bottom {
 .header-bar {
   border-bottom: 1px solid $grey-color-light;
   text-align: center;
-  padding-top: 2rem;
+  padding-top: 10rem;
   padding-bottom: 5rem;
+  color: red;
+
   h1 {
     color: var(--global-theme-color);
     font-size: 5rem;
