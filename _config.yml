@@ -110,6 +110,11 @@ collections:
   members:
     output: true
     permalink: /members/:path/
+  wins:
+    defaults:
+      layout: post
+    output: true
+    permalink: /wins/:path/
 
 news_limit: 5
 

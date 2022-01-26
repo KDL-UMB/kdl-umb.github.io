@@ -8,4 +8,6 @@ children:
       permalink: /tech-writing/
     - title: meeting
       permalink: /meeting
+    - title: women in science
+      permalink: /wins
 ---

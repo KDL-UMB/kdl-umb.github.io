@@ -3,7 +3,7 @@ layout: page
 title: women in science
 permalink: /wins/
 description: The purpose of this Club is to create a supportive community of faculty and students where students can discuss issues related to women in STEM fields, barriers women face, and strategies to overcome these barriers. Champion young women to advance in a STEM field career in and outside of academia. 
-nav: true
+nav: false
 display_categories: [seminar, fun]
 ---
 
