@@ -1,0 +1,30 @@
+---
+layout: page
+title: 2022-01-28
+---
+#### **Example Sentences**:
+
+- **Chengjie Zheng:** Despite their enormous success in many applications like social media, traffic analysis, biology, recommendation systems and even computer vision, many of the current GCN models use fairly shallow setting as many of the recent models such as GCN (Kipf & Welling, 2016) achieve their best performance given 2 layers.[source](https://openreview.net/pdf?id=CYO5T-YjWZV)
+
+- **Hefei Qiu:** Through an extensive empirical study on three open-ended generation tasks, we find that MAUVE identifies known properties of generated text, scales naturally with model size, and correlates with human judgments, with fewer restrictions than existing distributional evaluation metrics. [source](https://openreview.net/pdf?id=Tqx7nJp7PR)
+
+- **Zihan Li:** Our experiments show that the proposed shifted window approach has much lower latency than the sliding window method, yet is similar in modeling power(see Tables 5 and 6).[source](https://arxiv.org/pdf/2103.14030.pdf)
+
+
+
+
+#### **Before & After**:
+- Chengjie Zheng
+  - **before**: In this paper, we extend previous approaches and propose a unified framework, named QUESTEVAL. In contrast to established metrics such as ROUGE or BERTScore, QUESTEVAL does not require any groundtruth reference. Nonetheless, QUESTEVAL substantially improves the correlation with human judgments over four evaluation dimensions (consistency, coherence, fluency, and relevance), as shown in extensive experiments.
+  - **after**: In this paper, we extend previous approaches and propose a unified framework, named QuestEval. In contrast to established metrics such as ROUGE or BERTScore, QuestEval does not require any ground truth reference.
+Nonetheless, through extensive experiments on two well-recognized summarization datasets, we show that QuestEval substantially improves the correlation with human judgments over four evaluation dimensions (consistency, coherence, fluency, and relevance).
+
+- Zihan Li
+  - **before**: Compared with mature fixed length sliding windows, our method provides high quality summarized features which reduce the redundancy of representations.
+  - **after**: Unlike the mature fixed-length sliding windows that serve as the basic elements of processing in traditional time series data representation, the data-driven summarized feature elements can vary efficiently and substantially reveal the hidden patterns by clustering itself, which is a tough problem that receives attention in PA field.
+
+
+
+
+
+
