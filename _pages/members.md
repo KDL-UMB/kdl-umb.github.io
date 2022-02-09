@@ -29,7 +29,7 @@ horizontal: true
     {% endif %}
     
     <h1> Former PhD Students </h1>
-    {% assign sorted_projects = site.members | sort: "importance" | reverse%}
+    {% assign sorted_projects = site.membersGrad | sort: "importance" | reverse%}
     {% if page.horizontal %}
       <div class="container">
         <div class="row row-cols-3">
