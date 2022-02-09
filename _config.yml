@@ -110,6 +110,9 @@ collections:
   members:
     output: true
     permalink: /members/:path/
+  membersGrad:
+    output: true
+    permalink: /membersGrad/:path/
   wins:
     defaults:
       layout: post
