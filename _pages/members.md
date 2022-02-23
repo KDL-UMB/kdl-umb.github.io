@@ -32,7 +32,7 @@ horizontal: true
     {% assign sorted_projects = site.membersGrad | sort: "importance" | reverse%}
     {% if page.horizontal %}
       <div class="container">
-        <div class="row row-cols-3">
+        <div class="row row-cols-2">
         {% for project in sorted_projects %}
           {% include projects_horizontal2.html %}
         {% endfor %}
