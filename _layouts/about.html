@@ -6,7 +6,7 @@ layout: default
 
   <header class="post-header">
     <h1 class="post-title">
-     {% if site.title == "blank" %}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}{% else %}{{ site.title }}{% endif %}
+     {% if site.title == "blank" %}<span class="font-weight-bold">Knowledge Discovery Laboratory</span> {{ site.middle_name }} {% else %}{{ site.title }}{% endif %}
     </h1>
      <p class="desc">{{ page.description }}</p>
   </header>
@@ -29,7 +29,7 @@ layout: default
       {{ content }}
     </div>
 
-    <h3 style="font-weight: bold">Hot Topics</h3>
+    <h4 style="font-weight: bold">Hot Topics</h4> 
     {% if page.news %}
       {% include news.html %}
     {% endif %}
