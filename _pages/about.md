@@ -15,7 +15,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 ### About KDLab
-Knowledge Discovery Laboratory (KDLab) at the University of Massachusetts, Boston (UMass Boston) is directed by Dr. Wei Ding. It is located at the third floor of the ??? Building room ??? MC ?? (Please complete the detailed information)
+Knowledge Discovery Laboratory (KDLab) at the University of Massachusetts, Boston (UMass Boston) is directed by Dr. Wei Ding. It is located at the 3rd floor of the McCormack Hall room 0136 MC Chengjie Zheng.
 
 ---
 ### Research Agenda
