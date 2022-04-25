@@ -21,7 +21,7 @@ We propose a new contractive learning-based framework, named TimeCLR, for video 
 ```
  @inproceedings{,
     title     = {TimeCLR: A Contrastive Learning Based Framework for Video Classification},
-    author    = {Chengjie Zheng, Shiqian Shen,Ping Chen, Wei Ding},
+    author    = {Chengjie Zheng, Shiqian Shen, Wei Ding, Ping Chen},
     year      = {2021}
 } 
 ```
