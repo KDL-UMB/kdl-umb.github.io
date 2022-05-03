@@ -113,6 +113,9 @@ collections:
   membersGrad:
     output: true
     permalink: /membersGrad/:path/
+  membersDir:
+    output: true
+    permalink: /membersDir/:path/
   wins:
     defaults:
       layout: post

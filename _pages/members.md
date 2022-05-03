@@ -8,6 +8,26 @@ display_categories: [work, fun]
 horizontal: true
 ---
 <div class="projects">
+    <h1> Lab Director </h1>
+  <!-- Display projects without categories -->
+    {% assign sorted_projects = site.membersDir | sort: "importance" | reverse%}
+    <!-- Generate cards for each project -->
+    {% if page.horizontal %}
+      <div class="container">
+        <div class="row row-cols-1">
+        {% for project in sorted_projects %}
+          {% include projects_horizontal.html %}
+        {% endfor %}
+        </div>
+      </div>
+    {% else %}
+      <div class="grid">
+        {% for project in sorted_projects %}
+          {% include projects.html %}
+        {% endfor %}
+      </div>
+    {% endif %}
+
     <h1> Current PhD Students </h1>
   <!-- Display projects without categories -->
     {% assign sorted_projects = site.members | sort: "importance" | reverse%}
