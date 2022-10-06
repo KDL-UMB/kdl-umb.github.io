@@ -1,10 +1,11 @@
 ---
 layout: page
 title: Yong Zhuang
-description: Ph.D. research focused on developing applied machine learning algorithms to solve real-world computational problems, mainly focused on Spatio-temporal analysis and time series forecasting. I am also passionate about applying causal analysis techniques in feature selection to study how to identify the principal features from the original feature space.
+description: Ph.D. research focused on Machine Learning Engineer. PhD, 2021, Umass Boston
 img: /assets/img/members/yongZhuang_prof.jpg
 importance: 3
 category: research
+redirect: https://yong-zhuang.github.io/
 ---
 
 <div class="post">

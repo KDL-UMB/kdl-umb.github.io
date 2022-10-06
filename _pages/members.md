@@ -8,7 +8,7 @@ display_categories: [work, fun]
 horizontal: true
 ---
 <div class="projects">
-    <h1> Lab Director </h1>
+    <h3> Lab Director </h3>
   <!-- Display projects without categories -->
     {% assign sorted_projects = site.membersDir | sort: "importance" | reverse%}
     <!-- Generate cards for each project -->
@@ -28,7 +28,7 @@ horizontal: true
       </div>
     {% endif %}
 
-    <h1> Current PhD Students </h1>
+    <h3> Current PhD Students </h3>
   <!-- Display projects without categories -->
     {% assign sorted_projects = site.members | sort: "importance" | reverse%}
     <!-- Generate cards for each project -->
@@ -48,7 +48,7 @@ horizontal: true
       </div>
     {% endif %}
     
-    <h1> Former PhD Students </h1>
+    <h3> Former PhD Students </h3>
     {% assign sorted_projects = site.membersGrad | sort: "importance" | reverse%}
     {% if page.horizontal %}
       <div class="container">

@@ -1,10 +1,11 @@
 ---
 layout: page
 title: Matthew D Almeida
-description: Ph.D. research focused on Machine Learning Engineer. PhD, 2016, Umass Boston
+description: Ph.D. research focused on Machine Learning Engineer. PhD, 2021, Umass Boston
 img: /assets/img/members/members_grad/Matthew_D_Almeida.jpg
 importance: 3
-category: research
+category: research  
+redirect: https://matthewalmeida.github.io/
 ---
 
 <div class="post">
