@@ -1,10 +1,11 @@
 ---
 layout: page
 title: Long-term prediction of chaotic systems
-description: using new deep architectures to learn the state evolution of a variety of chaotic dynamical systems and significantly extend the prediction time.
+description:  Introduced the Lyapunov Horizon loss to measure how the error divergence of a forecasting sequence evolves in a chaotic system and developed a new deep recurrent architecture capable of learning the state evolution of various chaotic dynamical systems, substantially extending the prediction horizon.
 img: /assets/img/chaos/hf.jpg
 importance: 4
 category: research
+redirect: https://yong-zhuang.github.io/projects/long_term_prediction_of_chaotic_systems/
 ---
 
 <div class="post">

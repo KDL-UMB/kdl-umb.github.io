@@ -1,10 +1,11 @@
 ---
 layout: page
 title: Crime Hot Spot Forecasting
-description: A recurrent neural network to forecast crime hot spots.
+description: Integrated transposed convolutions and deep recurrent networks to capture complex spatio-temporal patterns in crime data and generate accurate forecasts of crime hotspots.
 img: /assets/img/crime/crime.jpg
 importance: 2
 category: research
+redirect: https://yong-zhuang.github.io/projects/crime_hotspot_forecasting/
 ---
 <div class="post">
     <div class="profile float-left w-50">

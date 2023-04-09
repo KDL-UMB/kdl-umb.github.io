@@ -1,10 +1,11 @@
 ---
 layout: page
 title: Deep symbolic regression
-description: using deep neural networks to estimate the underlying mathematical expressions describing a given dataset.
+description: Using a suitable reward mechanism with the reinforcement learning regime to encourage the model to explore and find the optimal solution in this vast space of potential mathematical expressions.
 img: /assets/img/symbolic_regression/dsr.jpg
 importance: 3
 category: research
+redirect: https://yong-zhuang.github.io/projects/deep_symbolic_regression/
 ---
 
 <div class="post">
