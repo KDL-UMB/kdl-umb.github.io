@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Deep symbolic regression
-description: Using a suitable reward mechanism with the reinforcement learning regime to encourage the model to explore and find the optimal solution in this vast space of potential mathematical expressions.
+description: Using a suitable reward mechanism with the reinforcement learning to identify the correct mathematical expression from an exponentially growing space of expressions that may describe a given dataset.
 img: /assets/img/symbolic_regression/dsr.jpg
 importance: 3
 category: research

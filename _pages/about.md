@@ -15,10 +15,10 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 ### About KDLab
-Knowledge Discovery Laboratory (KDLab) at the University of Massachusetts, Boston (UMass Boston) is directed by Dr. Wei Ding. It is located at the 3rd floor of the McCormack Hall room 0136 MC Chengjie Zheng.
+Knowledge Discovery Laboratory (KDLab) at the University of Massachusetts, Boston (UMass Boston) is directed by Dr. Wei Ding. It is located at the 3rd floor of the McCormack Hall room 0136 MC.
 
 ---
 ### Research Agenda
-The main areas of research of the KDLab are on data mining, machine learning, artificial intelligence, computational semantics, and with applications to health sciences, astronomy, geosciences, and environmental sciences
+The main areas of research of the KDLab are on data mining, machine learning, artificial intelligence, computational semantics, and with applications to health sciences, astronomy, geosciences, and environmental sciences.
 
 

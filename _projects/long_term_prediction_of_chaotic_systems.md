@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Long-term prediction of chaotic systems
-description:  Introduced the Lyapunov Horizon loss to measure how the error divergence of a forecasting sequence evolves in a chaotic system and developed a new deep recurrent architecture capable of learning the state evolution of various chaotic dynamical systems, substantially extending the prediction horizon.
+description:  A new deep recurrent architecture capable of learning the state evolution of various chaotic dynamical systems, substantially extending the prediction horizon.
 img: /assets/img/chaos/hf.jpg
 importance: 4
 category: research
