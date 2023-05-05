@@ -11,7 +11,7 @@
   Knowledge Discovery  Lab
 
 
-  | blog
+  | TimeCLR: A Contrastive Learning Based Framework for Video Classification
 
 </title>
 <meta name="description" content="The website of KDLab.
@@ -37,7 +37,7 @@
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌀</text></svg>">
 
 <link rel="stylesheet" href="/assets/css/main.css">
-<link rel="canonical" href="/blog/">
+<link rel="canonical" href="/projects/TimeCLR/">
 
 <!-- JQuery -->
 <!-- jQuery -->
@@ -98,8 +98,6 @@
           </li>
           
           <!-- Other pages -->
-          
-          
           
           
           
@@ -212,18 +210,33 @@
     <div class="container mt-5">
       <div class="post">
 
-  <div class="header-bar">
-    <h1></h1>
-    <h2>a simple whitespace theme for academics</h2>
-  </div>
+  <header class="post-header">
+    <h2 class="post-title text-uppercase blue-color-black font-weight-bold">TimeCLR: A Contrastive Learning Based Framework for Video Classification</h2>
+    <p class="post-description">using new deep architectures to learn the state evolution of a variety of chaotic dynamical systems and significantly extend the prediction time.</p>
+  </header>
 
+  <article>
+    <div class="post">
+    <div class="profile float-right w-50">
+        <img class="img-fluid" src="/assets/img/chengjie/TimeCLR.png">
+    </div>
+</div>
 
-  <ul class="post-list">
-    
-  </ul>
+<h3 id="abstraction">Abstraction</h3>
+<p>We propose a new contractive learning-based framework, named TimeCLR, for video classification which can capture the global context in the video by our proposing Spatial-Temporal Segment Frame Selection and enhance the inherent sequence structure of the video by our proposing Spatial-Temporal Interval Frame Selection. The goal of contrastive learning is to learn an encoder that encodes similar data as close as possible and makes the encoding results of different data as far away as possible. Compared with generative learning, contractive learning does not need to pay attention to the cumbersome details of the instance, but only needs to learn to distinguish the data in the feature space of the abstract semantic level, so the model and its optimization become simpler. Fundamentally speaking,  contrastive learning has a stronger generalization ability.  In addition, its other advantage is that it allows us to flexibly define powerful loss targets, as long as we can find a reasonable way to make positive and negative samples for comparison. However, in the current video field, existing methods rely to a large extent on short-range Spatiotemporal meanings to form cut-level contrast signals, which limits their use of global context. Therefore, we proposed TimeCLR to solve this problem. A large number of experiments have shown that our video-level contrastive learning framework (TimeCLR) is superior to the most popular model in video classification.</p>
 
-  
+<hr>
+<h3 id="citation">Citation</h3>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> @inproceedings{,
+    title     = {TimeCLR: A Contrastive Learning Based Framework for Video Classification},
+    author    = {Chengjie Zheng, Shiqian Shen, Wei Ding, Ping Chen},
+    year      = {2021}
+} 
+</code></pre></div></div>
 
+<hr>
+
+  </article>
 
 </div>
 
@@ -234,7 +247,7 @@
     
 <footer class="fixed-bottom">
   <div class="container mt-0">
-    &copy; Copyright 2023 Knowledge Discovery  Lab.
+    © Copyright 2023 Knowledge Discovery  Lab.
     
     
     

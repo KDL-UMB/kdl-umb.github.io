@@ -11,7 +11,7 @@
   Knowledge Discovery  Lab
 
 
-  | blog
+  | Interpretable Spatio-Temporal Modeling
 
 </title>
 <meta name="description" content="The website of KDLab.
@@ -37,7 +37,7 @@
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌀</text></svg>">
 
 <link rel="stylesheet" href="/assets/css/main.css">
-<link rel="canonical" href="/blog/">
+<link rel="canonical" href="/projects/interpretable_spatiotemporal_modeling/">
 
 <!-- JQuery -->
 <!-- jQuery -->
@@ -98,8 +98,6 @@
           </li>
           
           <!-- Other pages -->
-          
-          
           
           
           
@@ -212,18 +210,31 @@
     <div class="container mt-5">
       <div class="post">
 
-  <div class="header-bar">
-    <h1></h1>
-    <h2>a simple whitespace theme for academics</h2>
-  </div>
+  <header class="post-header">
+    <h2 class="post-title text-uppercase blue-color-black font-weight-bold">Interpretable Spatio-Temporal Modeling</h2>
+    <p class="post-description">Combined ensemble learning and the multi-Markov-Blankets concept in Bayesian probability theory to provide accurate predictions of extreme precipitation events.</p>
+  </header>
 
+  <article>
+    <p>Given a large-scale Spatio-temporal database, effectively and efficiently identifying strongly related features and removing the irrelevant or less important features with respect to a target variable is a critical and challenging issue in many fields. The optimal sub-feature-set that contains all the valuable information is called the Markov Boundary. Unfortunately, the existing feature selection methods often focus on identifying a single Markov Boundary, when real-world data could have many feature subsets that are equally good boundaries. In our work, we studied the existing state-of-the-art streaming feature selection methods. We evaluated them on meteorological data to identify the precursors to heavy precipitation event clusters. We also designed a new multiple-Markov-boundary-based predictive model, Galaxy, for long lead rainfall forecasting.</p>
 
-  <ul class="post-list">
-    
-  </ul>
+<h5 id="streaming-feature-selection-on-large-scale-spatio-temporal-database"><strong>Streaming feature selection on large-scale Spatio-temporal database</strong></h5>
+<div class="post">
+    <div class="profile float-left w-75">
+        <img class="img-fluid" src="/assets/img/spatio_temporal_modeling/icnsc2016.jpg">
+    </div>
+</div>
+<p>In practical Spatio-temporal applications, transformations and interactions among a small original feature set can lead to combinatorial increase in feature set size. For example, considering interactions of the nine original meteorological features in 5,328 locations and ten days in a flooding forecasting problem led to a set of over 479,520 potential features. Streaming feature selection has always been a superior technique to interweave the feature generation process with the feature testing process to avoid generating features that are unlikely to be helpful. It continuously updates the subset of predicted features through correlation analysis of newly emerging features, target features, and selected features to remove irrelevant and redundant features and select the most relevant features. <a href="/assets/pdf/zhuang2016evaluation/paper.pdf">We evaluated four state-of-the-art streaming feature selection methods (Alpha-investing, Online Streaming FeatureSelection (OSFS), Scalable and Accurate Online Approach (SAOLA), and Group SAOLA) on meteorological data sets to identify the precursors to heavy precipitation event clusters</a>. Through online redundancy analysis, OSFS significantly reduces the learning complexity (only 68 features are selected from 479,520 candidate features while Alpha-investing is 112) and provides us a more accurate precursor feature set with the most potent ability to predict heavy rain events. However, with the effort of online pairwise comparisons and group information, SAOLA and Group SAOLA only select 15, and 8 features, respectively, and the performance of predictive models using the selected feature sets is still comparable.</p>
 
-  
+<h5 id="identify-multiple-markov-boundaries-in-large-scale-spatio-temporal-database"><strong>Identify multiple Markov boundaries in large-scale Spatio-temporal database</strong></h5>
+<div class="post">
+    <div class="profile float-right w-50">
+        <img class="img-fluid" src="/assets/img/spatio_temporal_modeling/galaxy2.jpg">
+    </div>
+</div>
+<p>The ultimate goal of the feature selection method is to identify the feature set most relevant to the target feature, which is called the Markov boundary. In an ideal situation, the joint probability distribution $P$ is faithful to $G$(the graph of the Bayesian network), there is a unique Markov boundary of the target variable. However, the faithfulness condition almost never holds in real-world data because of hidden variables, hypothesis test errors, and some fake relevance of pure chances, which makes the Markov boundary of the target variable not unique in common situations. Motivated by this, we design a new algorithm,  <a href="/assets/pdf/zhuang2018galaxy/paper.pdf">Galaxy</a>, to identify multiple Markov boundaries through equivalent information exploration. We first determine a Markov boundary $M$, then try to replace $A\in M$ with the potential equivalent feature set $B$ explored from the residual features through correlation and performance analysis. We applied Galaxy to an extremely high-dimensional meteorological data set and finally determined 15 Markov boundaries related to heavy rainfall events in the Des Moines River Basin in Iowa, where the smallest size is four and the largest size is 13. Our model identified the cold surges along the coast of Asia as an essential precursor to the surface weather over the United  States, a finding which was later corroborated by climate experts.</p>
 
+  </article>
 
 </div>
 
@@ -234,7 +245,7 @@
     
 <footer class="fixed-bottom">
   <div class="container mt-0">
-    &copy; Copyright 2023 Knowledge Discovery  Lab.
+    © Copyright 2023 Knowledge Discovery  Lab.
     
     
     

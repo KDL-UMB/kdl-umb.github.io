@@ -11,7 +11,7 @@
   Knowledge Discovery  Lab
 
 
-  | blog
+  | 2022-01-21
 
 </title>
 <meta name="description" content="The website of KDLab.
@@ -37,7 +37,7 @@
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌀</text></svg>">
 
 <link rel="stylesheet" href="/assets/css/main.css">
-<link rel="canonical" href="/blog/">
+<link rel="canonical" href="/tech-writing/2022-01-21/">
 
 <!-- JQuery -->
 <!-- jQuery -->
@@ -98,8 +98,6 @@
           </li>
           
           <!-- Other pages -->
-          
-          
           
           
           
@@ -212,18 +210,68 @@
     <div class="container mt-5">
       <div class="post">
 
-  <div class="header-bar">
-    <h1></h1>
-    <h2>a simple whitespace theme for academics</h2>
-  </div>
+  <header class="post-header">
+    <h2 class="post-title text-uppercase blue-color-black font-weight-bold">2022-01-21</h2>
+    <p class="post-description"></p>
+  </header>
+
+  <article>
+    <h4 id="example-sentences">
+<strong>Example Sentences</strong>:</h4>
+
+<ul>
+  <li>
+    <p><strong>Chengjie Zheng:</strong> Designing proper self-supervised-learning principles for GNNs is crucial, as they drive what information of graph-structured data will be captured by GNNs and may heavily impact their performance in downstream tasks.<a href="https://arxiv.org/pdf/2106.05819.pdf" target="_blank" rel="noopener noreferrer">source</a></p>
+  </li>
+  <li>
+    <p><strong>Yong Zhuang:</strong> Given a long time series X and a look-back window of fixed length T, at timestamp t, time series forecasting is to predict $\hat{X}<em>{t+1:t+\gamma} = {x</em>{t+1}; :::; x_{t+\gamma}}$ based on the past T steps $X_{t-T+1:t} = {x_{t-T+1}; :::; x_t}$. Here, $\gamma$ is the length of the forecast horizon, $x_t \in R^d$ is the value at time step t, and d is the number of variates. For simplicity, in the following we will omit the subscripts, and use $X$ and $\hat{X}$ to represent the historical data and the prediction, respectively. When $\gamma &gt; 1$, we can either directly optimize the multi-step forecasting objective (direct multi-step (DMS) estimation), or learn a single-step forecaster and iteratively apply it to get multi-step predictions (iterated multi-step (IMS) estimation).
+<a href="https://arxiv.org/pdf/2106.09305.pdf" target="_blank" rel="noopener noreferrer">source</a></p>
+  </li>
+  <li>
+    <p><strong>Hefei Qiu:</strong> Constructed entirely from standard ConvNet modules, ConvNeXts compete favorably with Transformers in terms of
+accuracy and scalability, achieving 87.8% ImageNet top-1 accuracy and outperforming Swin Transformers on COCO detection and ADE20K segmentation, while maintaining the simplicity and efficiency of standard ConvNets. <a href="https://arxiv.org/pdf/2201.03545.pdf" target="_blank" rel="noopener noreferrer">source</a></p>
+  </li>
+  <li>
+    <p><strong>Tianyu Kang:</strong> To address these challenges, we seek models that perform well on each sub-corpus rather than those that achieve good (average) performance by focusing on the easy examples and domains. Thus, in this paper we develop procedures that control performance over all large enough subpopulations, agnostic to the distribution of each subpopulation.<a href="https://arxiv.org/pdf/2007.13982.pdf" target="_blank" rel="noopener noreferrer">source</a></p>
+  </li>
+  <li>
+    <p><strong>Zihan Li:</strong> Unlike the word tokens that serve as the basic elements of processing in language Transformers, visual elements can vary substantially in scale, a problem that receives attention in tasks such as object detection.<a href="https://arxiv.org/pdf/2103.14030.pdf" target="_blank" rel="noopener noreferrer">source</a></p>
+  </li>
+</ul>
+
+<h4 id="before--after">
+<strong>Before &amp; After</strong>:</h4>
+<ul>
+  <li>Chengjie Zheng
+    <ul>
+      <li>
+        <p><strong>before</strong>: The purpose of data augmentation is to achieve reasonable data representation without affecting the semantics label.</p>
+      </li>
+      <li>
+        <p><strong>after</strong>: Data augmentation aims at creating novel and realistically rational data through applying certain transformations without affecting the semantics label.</p>
+      </li>
+    </ul>
+  </li>
+  <li>Tianyu Kang
+    <ul>
+      <li>
+        <p><strong>before</strong>: We adopt the standard episodic training procedure, and sample a set of N-way K-shot training tasks to mimic the N-way K-shot test setting. In all settings, the query number is set to 15 and the performance is averaged over 10,000 randomly generated episodes from the test set. We construct these episodes by randomly sampling images instead of just dividing images into different episodes. Hence, an image could be processed in the model more than once. Due to the large number of episodes, this should not cause any bias to the model.</p>
+      </li>
+      <li>
+        <p><strong>after</strong>: We adopt the standard episodic training procedure, and sample a set of N-way K-shot training tasks to mimic the N-way K-shot test setting. The query number is set to 15 and the performance is averaged over 10,000 randomly generated episodes from the test set. Furthermore, we demonstrate through a series of empirical results that episodes are constructed by randomly sampling images instead of just dividing images into different episodes: allowing an image be processed more than once; due to the large number of episodes, no bias is caused.</p>
+      </li>
+    </ul>
+  </li>
+  <li>Zihan Li
+    <ul>
+      <li>In this paper, we seek to expand the applicability of Transformer such that it can serve as a general-purpose backbone for computer vision, as it does for NLP and as CNNs do in vision.<a href="https://arxiv.org/pdf/2103.14030.pdf" target="_blank" rel="noopener noreferrer">source</a>
+</li>
+    </ul>
+  </li>
+</ul>
 
 
-  <ul class="post-list">
-    
-  </ul>
-
-  
-
+  </article>
 
 </div>
 
@@ -234,7 +282,7 @@
     
 <footer class="fixed-bottom">
   <div class="container mt-0">
-    &copy; Copyright 2023 Knowledge Discovery  Lab.
+    © Copyright 2023 Knowledge Discovery  Lab.
     
     
     

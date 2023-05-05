@@ -11,7 +11,7 @@
   Knowledge Discovery  Lab
 
 
-  | blog
+  | Long-term prediction of chaotic systems
 
 </title>
 <meta name="description" content="The website of KDLab.
@@ -37,7 +37,7 @@
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌀</text></svg>">
 
 <link rel="stylesheet" href="/assets/css/main.css">
-<link rel="canonical" href="/blog/">
+<link rel="canonical" href="/projects/long_term_prediction_of_chaotic_systems/">
 
 <!-- JQuery -->
 <!-- jQuery -->
@@ -98,8 +98,6 @@
           </li>
           
           <!-- Other pages -->
-          
-          
           
           
           
@@ -212,18 +210,28 @@
     <div class="container mt-5">
       <div class="post">
 
-  <div class="header-bar">
-    <h1></h1>
-    <h2>a simple whitespace theme for academics</h2>
-  </div>
+  <header class="post-header">
+    <h2 class="post-title text-uppercase blue-color-black font-weight-bold">Long-term prediction of chaotic systems</h2>
+    <p class="post-description">A new deep recurrent architecture capable of learning the state evolution of various chaotic dynamical systems, substantially extending the prediction horizon.</p>
+  </header>
 
+  <article>
+    <div class="post">
+    <div class="profile float-right w-50">
+        <img class="img-fluid" src="/assets/img/chaos/hf.jpg">
+    </div>
+</div>
+<p>The understanding of chaotic systems is challenging not only for theoretical research but also for many criticalapplications. Chaotic behavior is found in many nonlinear dynamical systems, such as climate dynamics, weatherprediction, and the space-time dynamics of virus spread.  A reliable solution for these systems must handle theircomplex space-time dynamics and sensitive dependence on initial and boundary conditions.</p>
 
-  <ul class="post-list">
-    
-  </ul>
+<p>We develop a deep learning framework to push the time horizon at which reliable predictions can be made furtherinto the future by better evaluating the consequences of local errors when modeling nonlinear systems[1].  Ourapproach  observes  the  future  trajectories  of  initial  errors  at  a  time  horizon  to  model  the  evolution  of  the  lossto  that  point  with  two  major  components:</p>
+<ul>
+  <li>a recurrent  architecture  (Error  Trajectory  Tracing)  based  on  thecalculation of the Lyapunov exponent, designed to trace the trajectories of predictive errors through phase space,and</li>
+  <li>a training regime, Horizon Forcing, that pushes the model’s focus out to a predetermined time horizon.</li>
+</ul>
 
-  
+<p>Wevalidate our method on three classics, chaotic systems, and four real-world time series prediction tasks with chaoticcharacteristics, and our approach outperforms the current state-of-the-art methods.</p>
 
+  </article>
 
 </div>
 
@@ -234,7 +242,7 @@
     
 <footer class="fixed-bottom">
   <div class="container mt-0">
-    &copy; Copyright 2023 Knowledge Discovery  Lab.
+    © Copyright 2023 Knowledge Discovery  Lab.
     
     
     
